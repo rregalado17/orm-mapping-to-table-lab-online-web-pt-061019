@@ -38,6 +38,7 @@ attr_reader :id
     DB[:conn].execute(sql, self.name, self.grade)
   end
 
+  
 
   
 end
